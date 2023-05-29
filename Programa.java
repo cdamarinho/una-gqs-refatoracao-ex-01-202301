@@ -15,7 +15,7 @@ class Programa {
 
     erroTentativas = mensagem.realizaPerguntaVacinaEmDia(pessoa, scanner);
 
-    validacao.validacaoDasProximasPerguntas(pessoas);
+    validacao.validacaoDasProximasPerguntas(mensagem, pessoa, erroTentativas, scanner);
 
     validacao.calcularValidacaoFinal(erroTentativass);
 
